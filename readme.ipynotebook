@@ -1,0 +1,9 @@
+export to html
+        if you want to statically save something
+ipython nbconvert timeseries.ipynb
+
+export to PDF (after updating ipython version using;)
+conda update conda
+conda update ipython ipython-notebook ipython-qtconsole
+
+ipython nbconvert --to pdf NAIMA_Emission_Scenarios_EGU.ipynb
